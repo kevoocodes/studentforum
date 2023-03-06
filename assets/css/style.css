@@ -1,0 +1,89 @@
+  /* UccForums CSS */
+  body{
+    background-color: #bfbfbf;
+    /* font-family: Tahoma; */
+}
+
+#brand{
+    /* font-size: 30px; */
+    color: #ff0000;
+    text-shadow: 2px 2px 7px    #000000;
+    font-family: 'Pacifico', sans-serif;
+}
+
+#spanbrand{
+    font-size: 20px;
+    color: #00aaff;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+#linkTrending{
+    color: #000000;
+}
+
+#trending h1{
+    text-align: center;
+}
+
+#profileTrending{
+    width: 60%;
+    height: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#headingTrending{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#pTrending{
+    font-size: 10px;
+}
+
+#profileButton{
+    margin-left: 25%;
+}
+
+#profileThings h2{
+    font-size: 16px;
+}
+
+#pPost{
+    font-size: 16px;
+}
+
+#comment{
+    display: flex;
+}
+
+
+.imageComment,.imageComments{
+    display: flex;
+}
+
+h2 a{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #profileTrending{
+        height: 500px;
+    }
+}
+
+
+
+
+

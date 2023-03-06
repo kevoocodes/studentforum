@@ -1,0 +1,17 @@
+1. Print 
+    - admin
+    - student 
+    
+2. Post date for each post 
+
+
+3. Admin 
+    -categories
+
+
+
+#SITE CORRECTION 
+  1. Admin should have register more than one students at the same time. 
+  2. Admin take a report of all students  by using date or posts of the day,week, or month. 
+  3. Student validation automatic after enter text to a field before submit button 
+  4. Student should have to see the time fo post that posted for that time or date 

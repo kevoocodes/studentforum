@@ -1,7 +1,7 @@
 <?php
 
 $username = " "; //This is for error
-$error_array = "";
+$error_array = array();
 if(isset($_POST['login'])) {
 
 	$username = $_POST['loginusername']; //sanitize username

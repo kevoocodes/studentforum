@@ -133,7 +133,7 @@
                                   </div>
                                   <div style="display: flex;">
                                         <div class="commentImage" id="imageComment"> 
-                                            <!-- <img src="assets/images/profilepicture/<?php echo $sstudentinfo['profileImage'];  ?>" alt="" class="imageComments">  -->
+                                             <img src="../assets/images/profilepicture/<?php echo $sstudentinfo['profileImage'];  ?>" alt="" class="imageComments">  
                                             
                                         </div>
                                         <div class="commentUser">

@@ -51,7 +51,6 @@ if(isset($_POST['post'])){
 ?>
      
     
-
     <div id="trending" class="mt-5">
         <div class="container">
             <div class="row">

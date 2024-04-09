@@ -48,30 +48,7 @@ if(isset($_POST['submit'])){
     $bio = $_POST['bio'];
     // $_SESSION['bio'] = $bio;
 
-    // $_SESSION['university'] = $university;
 
-
-    // $facult  = $_POST['faculty'];
-    // $_SESSION['faculty'] = $facult;
-
-    //temporary file for images
-    // $target = 'assets/images/profilepicture/' . $profileImageName;
-
-
-    //move to temporary image folder
-    //   if   (move_uploaded_file($_FILES['profileImage']['tmp_name'], $target)){
-        // $sql = "INSERT INTO studentinfo (studentID,name,skills,bio,university,faculty) VALUE('$studentId','$name','$skills','$bio','$university','$facult')";
-
-        // $sqlemail = $con->query("SELECT * FROM studentinfo WHERE email = '$email'");
-        // $sqlusername = $con->query("SELECT * FROM studentinfo WHERE username = '$username'");
-        // if(mysqli_num_rows($sqlemail) > 0){
-        //     $msg = "**Email is already Taken";
-
-        // }elseif(mysqli_num_rows($sqlusername)){
-        //     $msg = "**Username is alread Taken";
-        // }else{
-               
-        // }
         $sql = mysqli_query($con, "UPDATE studentinfo SET  bio = '$bio'  WHERE studentID = '$id'");
 
         if($sql){

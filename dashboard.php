@@ -12,15 +12,14 @@
 <?php include 'postdate.php'; ?>
 
 
-    
 
     <div id="trending" class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 bg-light">
                     <h1  class="lead align-items-center mt-5">Trending Stories</h1>
-
-                         
+                   
+                        
                     <?php 
                                     $sql = mysqli_query($con, "SELECT * FROM posts ORDER BY id DESC LIMIT 10");
                                     $row = mysqli_num_rows($sql);
@@ -95,7 +94,6 @@
     </div>
 
    
-
 
 <?php include("includes/footer.php"); ?>
 

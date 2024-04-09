@@ -17,7 +17,6 @@
 
 </style>
 
-
 <div id="trending" class="mt-5">
         <div class="container">
             <div class="row">
@@ -100,6 +99,5 @@
         </div>
     </div>
    
-
 
     <?php include("includes/other/footer.php"); ?>

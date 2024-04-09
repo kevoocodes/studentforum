@@ -44,7 +44,7 @@
                                                                             
                                                 
                                                 <a style="font-size: 14px" href="postdelete.php?id= <?php echo $id; ?>" onclick="return confirm('Are you sure you want to delete this Post?');" class="text-danger">Delete</a> </h3> 
-                                        </div>
+                                            </div>
                                         </div>
 
                                        
